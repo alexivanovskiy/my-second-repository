@@ -33,5 +33,6 @@ body {
 .news {
     background-color: rgb(166, 230, 230);
     height: 50%;
+    font-size: 20px;
 }
 
