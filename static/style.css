@@ -1,0 +1,37 @@
+body {
+    display: flex; /* включаем flex-контейнер */
+    flex-direction: row; /* главная ось — вертикаль (сверху вниз) */
+    justify-content: center; /* выравнивание по главной оси */ 
+    align-items: center; /* выранивание по поперечной оси */
+}
+
+.main {
+    text-align: center; /*текст по центру*/
+    background-color: bisque; /*Цвет фона*/
+    color: brown; /* Цвет текста */
+    font-size: 30px; /* Размер шрифта */
+    border-radius: 30px; /*Скругление углов*/
+    height: 100vh; /*Высота по всей странице*/
+    width: 70%; /*ширина на 70% от страницы*/
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    height: 100vh;
+}
+
+.main-2 {
+    text-align: center;
+    font-size: 25px;
+    background-color: aquamarine;
+    height: 50%;
+    width: auto;
+}
+
+.news {
+    background-color: rgb(166, 230, 230);
+    height: 50%;
+}
+
